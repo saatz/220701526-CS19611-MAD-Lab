@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Student Details"
+        android:layout_x="150dp"
+        android:layout_y="30dp"
+        android:textStyle="bold"
+        android:textColor="#9C27B0"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+         android:layout_width="wrap_content"/>
+
+    <TextView
+        android:text="Enter Roll No."
+        android:layout_x="30dp"
+        android:layout_y="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/editRollno"
+        android:inputType="number"
+        android:layout_x="150dp"
+        android:layout_y="60dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:text="Enter Name"
+        android:layout_x="30dp"
+        android:layout_y="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:inputType="text"
+        android:layout_x="150dp"
+        android:layout_y="130dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:text="Enter CGPA"
+        android:layout_x="30dp"
+        android:layout_y="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editCGPA"
+        android:inputType="number"
+        android:layout_x="150dp"
+        android:layout_y="210dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:text="Insert"
+        android:layout_x="30dp"
+        android:layout_y="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnUpdate"
+        android:text="Update"
+        android:layout_x="140dp"
+        android:layout_y="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:text="Delete"
+        android:layout_x="250dp"
+        android:layout_y="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:text="View"
+        android:layout_x="30dp"
+        android:layout_y="370dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnViewAll"
+        android:text="View All"
+        android:layout_x="140dp"
+        android:layout_y="370dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</AbsoluteLayout>
